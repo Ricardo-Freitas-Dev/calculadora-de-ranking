@@ -20,4 +20,4 @@ function calcularRanking(vitorias, derrotas){
   return {saldoVitorias, nivel}
 }
 let resultado = calcularRanking(140, 49)
-console.log(` O herói tem saldo de ${resultado.saldoVitorias} e está no nível ${resultado.nivel}`)
+console.log(` O herói tem saldo de ${resultado.saldoVitorias} e está no nível ${resultado.nivel}!`)
