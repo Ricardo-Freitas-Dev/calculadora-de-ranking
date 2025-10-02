@@ -2,7 +2,7 @@ function calcularRanking(vitorias, derrotas){
   let saldoVitorias = vitorias - derrotas 
   let nivel = "" 
   
-  if (saldoVitorias < 10){ 
+  if (saldoVitorias <= 10){ 
     nivel = "Ferro" 
   } else if (saldoVitorias >= 11 && saldoVitorias <= 20){ 
     nivel = "Bronze" 
